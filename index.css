@@ -106,7 +106,7 @@ width: 80%;
   position: relative;
   width: 90%;
   margin: auto;
-  --swiper-scrollbar-top: 95%;
+  --swiper-scrollbar-top: 75%;
   --swiper-scrollbar-bottom: 4px;
   --swiper-scrollbar-left: 50%;
   --swiper-scrollbar-right: 50%;
