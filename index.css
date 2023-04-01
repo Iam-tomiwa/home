@@ -7,7 +7,7 @@ body {
 }
 
 .navbar {
-  padding: 10px 30px;
+  padding: 10px 10px;
 }
 .navbar-brand {
   color: #ed8e00;
@@ -17,6 +17,9 @@ body {
   margin-right: 70px;
   font-weight: 700;
   font-size: 0.8em;
+}
+.navbar-nav{
+  margin-left: 35em;
 }
 .navbar-nav .nav-link.active {
   color: rgb(1, 19, 82);
@@ -111,6 +114,7 @@ width: 80%;
   --swiper-scrollbar-drag-bg-color: #ed8e00;
   --swiper-scrollbar-size: 2px;
   --swiper-scrollbar-width: 10px;
+  --swiper-theme-color:#fff;
 }
 .swiper-container {
   width: 80%;
