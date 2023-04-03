@@ -70,23 +70,14 @@ body {
   display: flex;
   align-items: center;
 }
-/* .swiper-slides{
-width: 80%;
-} */
-.mySwiper {
+
+.swiper {
   width: 80%;
   overflow: hidden;
+   height: 400px;
+  margin: 50px auto;
+  position: relative;
 }
-
-/* .swiper-slide {
-  background: #fff;
-  color: #000;
-  text-align: center;
-  font-size: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
 
 .swiper-scrollbar {
   background: white;
@@ -102,7 +93,7 @@ width: 80%;
 .swiper-scrollbar:hover {
   opacity: 1;
 }
-.swiper-inner {
+/* .swiper-inner {
   position: relative;
   margin: auto;
   --swiper-scrollbar-top: 95%;
@@ -114,13 +105,8 @@ width: 80%;
   --swiper-scrollbar-size: 2px;
   --swiper-scrollbar-width: 10px;
   --swiper-theme-color:#fff;
-}
-.swiper-container {
-  width: 80%;
-  height: 400px;
-  margin: 50px auto;
-  position: relative;
-}
+} */
+
 .swiper-button-prev,
 .swiper-button-next {
   position: absolute;
