@@ -173,6 +173,7 @@
       const swiper = new Swiper(".swiper", {
         scrollbar: {
           el: ".swiper-scrollbar",
+          hide:false,
         },
         pagination: {
           el: ".swiper-pagination",
@@ -184,9 +185,9 @@
         },
         slidesPerView: "5",
         // centeredSlides: true,
-        spaceBetween: 55,
+        spaceBetween: 53,
         grabCursor: true,
-        loop: true,
+       rewind:true,
         dragSize: "4px",
         navigation:true,
         effect:"coverflow",
