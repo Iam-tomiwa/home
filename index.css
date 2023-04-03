@@ -104,7 +104,6 @@ width: 80%;
 }
 .swiper-inner {
   position: relative;
-  width: 60%;
   margin: auto;
   --swiper-scrollbar-top: 95%;
   --swiper-scrollbar-bottom: 4px;
